@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/multi-tenant
+    username: bishoy
+    password: 12345
+
+  flyway:
+    enabled: false
+
+  liquibase:
+    enabled: false
+
